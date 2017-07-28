@@ -1,3 +1,10 @@
+# Autocompletado para Template-Informe
+# Probado en TeXstudio
+#
+# Autor: Pablo Pizarro R. @ppizarror.com
+# Fecha: 2017
+# Licencia: MIT
+
 # Funciones del núcleo
 \throwerror{function}{message}
 \throwwarning{message}
@@ -59,7 +66,7 @@
 \insertalignedcaptioned{equation}{caption}
 \insertalignedcaptionedanum{equation}{caption}
 
-# Figuras
+# Imágenes
 \insertimage[opt. label]{imagefile}{keyvals}{caption}
 \insertimage{imagefile}{keyvals}{caption}
 \insertimage[opt. label]{imagefile}{keyvals}
