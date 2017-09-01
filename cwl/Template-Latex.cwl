@@ -123,6 +123,6 @@
 \insertimagerightline{imagefile}{textwidth size}{nlines}#n
 
 # Títulos
-\sectionanumnoi{title}#n
+\sectionanum{title}#n
 \subsectionanum{title}#n
 \subsubsectionanum{title}#n

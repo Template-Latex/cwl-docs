@@ -10,6 +10,7 @@
 # Títulos
 \sectionanumnoi{title}#n
 \sectionanumheadless{title}#n
+\sectionanumnoiheadless{title}#n
 \subsectionanumnoi{title}#n
 \subsubsectionanumnoi{title}#n
 \insertindextitle{title}{opt. superior margin}#n
