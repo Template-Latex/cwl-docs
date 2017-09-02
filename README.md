@@ -15,6 +15,6 @@ Conjunto de archivos .cwl de autocomletado para los editores LaTeX.
 Este proyecto está licenciado bajo la licencia MIT [https://opensource.org/licenses/MIT].
 
 ## Autor
-<a href="http://ppizarror.com">Pablo Pizarro R.</a> | 2017
+<a href="http://ppizarror.com">Pablo Pizarro R.</a> | 2017.
 
 Si tienes alguna sugerencia envíame un correo a: [pablo.pizarro@ing.uchile.cl](mailto:pablo.pizarro@ing.uchile.cl).
