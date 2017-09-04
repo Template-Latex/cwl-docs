@@ -1,8 +1,8 @@
 # Autocompletado para Template-Auxiliares
 # Probado en TeXstudio
 #
-# Autor: Pablo Pizarro R. @ppizarror.com
-# Fecha: (28/07/2017)
+# Autor: Pablo Pizarro R. @ ppizarror.com
+# Fecha: (04/09/2017)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
