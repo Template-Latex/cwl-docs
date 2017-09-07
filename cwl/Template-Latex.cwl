@@ -83,72 +83,38 @@
 # Imágenes
 \insertimage[opt. label]{imagefile}{keyvals}{caption}#n
 \insertimage{imagefile}{keyvals}{caption}#n
-\insertimage[opt. label]{imagefile}{keyvals}#n
-\insertimage{imagefile}{keyvals}#n
 \insertimageboxed[opt. label]{imagefile}{keyvals}{linewidth}{caption}#n
 \insertimageboxed{imagefile}{keyvals}{linewidth}{caption}#n
-\insertimageboxed[opt. label]{imagefile}{keyvals}{linewidth}#n
-\insertimageboxed{imagefile}{keyvals}{linewidth}#n
 \insertdoubleimage[opt. label]{imagefile1}{keyvals1}{caption1}{imagefile2}{keyvals2}{caption2}{caption}#n
 \insertdoubleimage{imagefile1}{keyvals1}{caption1}{imagefile2}{keyvals2}{caption2}{caption}#n
-\insertdoubleimage[opt. label]{imagefile1}{keyvals1}{caption1}{imagefile2}{keyvals2}{caption2}#n
-\insertdoubleimage{imagefile1}{keyvals1}{caption1}{imagefile2}{keyvals2}{caption2}#n
 \insertdoubleeqimage[opt. label]{imagefile1}{caption1}{imagefile2}{caption2}{keyvals}{caption}#n
 \insertdoubleeqimage{imagefile1}{caption1}{imagefile2}{caption2}{keyvals}{caption}#n
-\insertdoubleeqimage[opt. label]{imagefile1}{caption1}{imagefile2}{caption2}{keyvals}#n
-\insertdoubleeqimage{imagefile1}{caption1}{imagefile2}{caption2}{keyvals}#n
 \inserttripleimage[opt. label]{imagefile1}{keyvals1}{imagefile2}{keyvals2}{imagefile3}{keyvals3}{caption}#n
 \inserttripleimage{imagefile1}{keyvals1}{imagefile2}{keyvals2}{imagefile3}{keyvals3}{caption}#n
-\inserttripleimage[opt. label]{imagefile1}{keyvals1}{imagefile2}{keyvals2}{imagefile3}{keyvals3}#n
-\inserttripleimage{imagefile1}{keyvals1}{imagefile2}{keyvals2}{imagefile3}{keyvals3}#n
 \inserttripleeqimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{keyvals}{caption}#n
 \inserttripleeqimage{imagefile1}{imagefile2}{imagefile3}{keyvals}{caption}#n
-\inserttripleeqimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{keyvals}#n
-\inserttripleeqimage{imagefile1}{imagefile2}{imagefile3}{keyvals}#n
 \insertquadimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{imagefile4}{keyvals}{caption}#n
 \insertquadimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{keyvals}{caption}#n
-\insertquadimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{imagefile4}{keyvals}#n
-\insertquadimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{keyvals}#n
 \insertpentaimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{keyvals}{caption}#n
 \insertpentaimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{keyvals}{caption}#n
-\insertpentaimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{keyvals}#n
-\insertpentaimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{keyvals}#n
 \inserthexaimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{imagefile6}{keyvals}{caption}#n
 \inserthexaimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{imagefile6}{keyvals}{caption}#n
-\inserthexaimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{imagefile6}{keyvals}#n
-\inserthexaimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{imagefile6}{keyvals}#n
 \insertimageleft[opt. label]{imagefile}{textwidth size}{caption}#n
 \insertimageleft{imagefile}{textwidth size}{caption}#n
-\insertimageleft[opt. label]{imagefile}{textwidth size}#n
-\insertimageleft{imagefile}{textwidth size}#n
 \insertimageleftboxed[opt. label]{imagefile}{textwidth size}{linewidth}{caption}#n
 \insertimageleftboxed{imagefile}{textwidth size}{linewidth}{caption}#n
-\insertimageleftboxed[opt. label]{imagefile}{textwidth size}{linewidth}#n
-\insertimageleftboxed{imagefile}{textwidth size}{linewidth}#n
 \insertimageleftline[opt. label]{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimageleftline{imagefile}{textwidth size}{nlines}{caption}#n
-\insertimageleftline[opt. label]{imagefile}{textwidth size}{nlines}#n
-\insertimageleftline{imagefile}{textwidth size}{nlines}#n
 \insertimageleftlineboxed[opt. label]{imagefile}{textwidth size}{nlines}{linewidth}{caption}#n
 \insertimageleftlineboxed{imagefile}{textwidth size}{nlines}{linewidth}{caption}#n
-\insertimageleftlineboxed[opt. label]{imagefile}{textwidth size}{nlines}{linewidth}#n
-\insertimageleftlineboxed{imagefile}{textwidth size}{nlines}{linewidth}#n
 \insertimageright[opt. label]{imagefile}{textwidth size}{caption}#n
 \insertimageright{imagefile}{textwidth size}{caption}#n
-\insertimageright[opt. label]{imagefile}{textwidth size}#n
-\insertimageright{imagefile}{textwidth size}#n
 \insertimagerightboxed[opt. label]{imagefile}{textwidth size}{linewidth}{caption}#n
 \insertimagerightboxed{imagefile}{textwidth size}{linewidth}{caption}#n
-\insertimagerightboxed[opt. label]{imagefile}{textwidth size}{linewidth}#n
-\insertimagerightboxed{imagefile}{textwidth size}{linewidth}#n
 \insertimagerightline[opt. label]{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimagerightline{imagefile}{textwidth size}{nlines}{caption}#n
-\insertimagerightline[opt. label]{imagefile}{textwidth size}{nlines}#n
-\insertimagerightline{imagefile}{textwidth size}{nlines}#n
 \insertimagerightlineboxed[opt. label]{imagefile}{textwidth size}{nlines}{linewidth}{caption}#n
 \insertimagerightlineboxed{imagefile}{textwidth size}{nlines}{linewidth}{caption}#n
-\insertimagerightlineboxed[opt. label]{imagefile}{textwidth size}{nlines}{linewidth}#n
-\insertimagerightlineboxed{imagefile}{textwidth size}{nlines}{linewidth}#n
 
 # Títulos
 \sectionanum{title}#n
