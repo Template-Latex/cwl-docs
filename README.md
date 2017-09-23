@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="cwl-docs" src="http://latex.ppizarror.com/Template-Informe/icon.png" width="200px" height="200px" />
+  <img alt="cwl-docs" src="http://latex.ppizarror.com/icon.png" width="200px" height="200px" />
   <br /><br />
   Autocompletado para Template-Latex</h1>
 <p align="center">Conjunto de archivos .cwl de autocomletado para el editor TexStudio</p>
