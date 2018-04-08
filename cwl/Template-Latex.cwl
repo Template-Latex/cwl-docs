@@ -1,7 +1,7 @@
 # Autocompletado para las funciones por defecto de Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (26/09/2017)
+# Fecha: (08/04/2018)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -49,6 +49,9 @@
 \insertemptypage#n
 \quotes{text}#n
 \insertemail{email account}#n
+\begin{sourcecode}[opt. label]{style}{caption}#*
+\begin{sourcecode}{style}{caption}#*
+\end{sourcecode}
 
 # Ecuaciones
 \equationresize{textwidth size}{equation}
@@ -82,8 +85,8 @@
 # Imágenes
 \insertimage[opt. label]{imagefile}{keyvals}{caption}#n
 \insertimage{imagefile}{keyvals}{caption}#n
-\insertimageboxed[opt. label]{imagefile}{keyvals}{linewidth}{caption}#n
-\insertimageboxed{imagefile}{keyvals}{linewidth}{caption}#n
+\insertimageboxed[opt. label]{imagefile}{keyvals}{border width}{caption}#n
+\insertimageboxed{imagefile}{keyvals}{border width}{caption}#n
 \insertdoubleimage[opt. label]{imagefile1}{keyvals1}{caption1}{imagefile2}{keyvals2}{caption2}{caption}#n
 \insertdoubleimage{imagefile1}{keyvals1}{caption1}{imagefile2}{keyvals2}{caption2}{caption}#n
 \insertdoubleeqimage[opt. label]{imagefile1}{caption1}{imagefile2}{caption2}{keyvals}{caption}#n
@@ -100,20 +103,25 @@
 \inserthexaimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{imagefile6}{keyvals}{caption}#n
 \insertimageleft[opt. label]{imagefile}{textwidth size}{caption}#n
 \insertimageleft{imagefile}{textwidth size}{caption}#n
-\insertimageleftboxed[opt. label]{imagefile}{textwidth size}{linewidth}{caption}#n
-\insertimageleftboxed{imagefile}{textwidth size}{linewidth}{caption}#n
+\insertimageleftboxed[opt. label]{imagefile}{textwidth size}{borderwidth}{caption}#n
+\insertimageleftboxed{imagefile}{textwidth size}{borderwidth}{caption}#n
 \insertimageleftline[opt. label]{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimageleftline{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimageleftlineboxed[opt. label]{imagefile}{textwidth size}{nlines}{linewidth}{caption}#n
 \insertimageleftlineboxed{imagefile}{textwidth size}{nlines}{linewidth}{caption}#n
 \insertimageright[opt. label]{imagefile}{textwidth size}{caption}#n
 \insertimageright{imagefile}{textwidth size}{caption}#n
-\insertimagerightboxed[opt. label]{imagefile}{textwidth size}{linewidth}{caption}#n
-\insertimagerightboxed{imagefile}{textwidth size}{linewidth}{caption}#n
+\insertimagerightboxed[opt. label]{imagefile}{textwidth size}{border width}{caption}#n
+\insertimagerightboxed{imagefile}{textwidth size}{border width}{caption}#n
 \insertimagerightline[opt. label]{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimagerightline{imagefile}{textwidth size}{nlines}{caption}#n
-\insertimagerightlineboxed[opt. label]{imagefile}{textwidth size}{nlines}{linewidth}{caption}#n
-\insertimagerightlineboxed{imagefile}{textwidth size}{nlines}{linewidth}{caption}#n
+\insertimagerightlineboxed[opt. label]{imagefile}{textwidth size}{nlines}{border width}{caption}#n
+\insertimagerightlineboxed{imagefile}{textwidth size}{nlines}{border width}{caption}#n
+\begin{image}[opt. label]{caption}#n
+\begin{image}{caption}#n
+\end{image}
+\addimage{imagefile}{keyvals}{caption}
+\addimageboxed{imagefile}{keyvals}{border width}{caption}
 
 # Títulos
 \sectionanum{title}#n
