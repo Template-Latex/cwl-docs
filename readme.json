@@ -2,7 +2,7 @@
     "PROJECT": {
         "NAME": "Autocompletado para Template-Latex",
         "ICON": {
-            "IMAGE": "http://latex.ppizarror.com/icon.png",
+            "IMAGE": "http://latex.ppizarror.com/res/favicon-informe/icon.png",
             "ALT": "cwl-docs",
             "WIDTH": 200,
             "HEIGHT": 200
@@ -23,12 +23,12 @@
     "DESCRIPTION": "Conjunto de archivos .cwl de autocomletado para el editor TexStudio",
     "BADGES": {
         "0": {
-            "IMAGE": "http://ppizarror.com/badges/autor.svg",
+            "IMAGE": "http://latex.ppizarror.com/res/badges/autor.svg",
             "HREF": "http://ppizarror.com",
             "ALT": "@ppizarror"
         },
         "1": {
-            "IMAGE": "http://ppizarror.com/badges/licenciamit.svg",
+            "IMAGE": "http://latex.ppizarror.com/res/badges/licenciamit.svg",
             "HREF": "https://opensource.org/licenses/MIT/",
             "ALT": "Licencia MIT"
         },
@@ -36,41 +36,41 @@
             "NEWLINE": true
         },
         "3": {
-            "IMAGE": "http://latex.ppizarror.com/badges/tesis.svg",
+            "IMAGE": "http://latex.ppizarror.com/res/badges/tesis.svg",
             "HREF": "https://github.com/Template-Latex/Template-Tesis/",
             "ALT": "Template-Tesis",
             "SHOW": false
         },
         "4": {
-            "IMAGE": "http://latex.ppizarror.com/badges/apunte.svg",
+            "IMAGE": "http://latex.ppizarror.com/res/badges/apunte.svg",
             "HREF": "https://github.com/Template-Latex/Template-Apunte/",
             "ALT": "Template-Apunte",
             "SHOW": false
         },
         "5": {
-            "IMAGE": "http://latex.ppizarror.com/badges/tareas.svg",
+            "IMAGE": "http://latex.ppizarror.com/res/badges/tareas.svg",
             "HREF": "https://github.com/Template-Latex/Template-Tareas/",
             "ALT": "Template-Tareas",
             "SHOW": false
         },
         "6": {
-            "IMAGE": "http://latex.ppizarror.com/badges/auxiliares.svg",
+            "IMAGE": "http://latex.ppizarror.com/res/badges/auxiliares.svg",
             "HREF": "https://github.com/Template-Latex/Template-Auxiliares/",
             "ALT": "Template-Auxiliares"
         },
         "7": {
-            "IMAGE": "http://latex.ppizarror.com/badges/controles.svg",
+            "IMAGE": "http://latex.ppizarror.com/res/badges/controles.svg",
             "HREF": "https://github.com/Template-Latex/Template-Controles/",
             "ALT": "Template-Controles"
         },
         "8": {
-            "IMAGE": "http://latex.ppizarror.com/badges/pauta.svg",
+            "IMAGE": "http://latex.ppizarror.com/res/badges/pauta.svg",
             "HREF": "https://github.com/Template-Latex/Template-Pautas/",
             "ALT": "Template-Pautas",
             "SHOW": false
         },
         "9": {
-            "IMAGE": "http://latex.ppizarror.com/badges/informe.svg",
+            "IMAGE": "http://latex.ppizarror.com/res/badges/informe.svg",
             "HREF": "https://github.com/Template-Latex/Template-Informe/",
             "ALT": "Template-Informe"
         }
