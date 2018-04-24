@@ -117,11 +117,11 @@
 \insertimagerightline{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimagerightlineboxed[opt. label]{imagefile}{textwidth size}{nlines}{border width}{caption}#n
 \insertimagerightlineboxed{imagefile}{textwidth size}{nlines}{border width}{caption}#n
-\begin{image}[opt. label]{caption}#n
-\begin{image}{caption}#n
-\end{image}
-\addimage{imagefile}{keyvals}{caption}
-\addimageboxed{imagefile}{keyvals}{border width}{caption}
+\begin{images}[opt. label]{caption}#n
+\begin{images}{caption}#n
+\end{images}
+\addimage{imagefile}{keyvals}{caption}#n
+\addimageboxed{imagefile}{keyvals}{border width}{caption}#n
 
 # Títulos
 \sectionanum{title}#n
