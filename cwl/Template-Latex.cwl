@@ -49,6 +49,8 @@
 \insertemptypage#n
 \quotes{text}#n
 \insertemail{email account}#n
+
+# Código fuente
 \begin{sourcecode}[opt. label]{style}{caption}#*
 \begin{sourcecode}{style}{caption}#*
 \end{sourcecode}
