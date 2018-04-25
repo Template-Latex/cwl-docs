@@ -101,22 +101,44 @@
 \insertpentaimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{keyvals}{caption}#n
 \inserthexaimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{imagefile6}{keyvals}{caption}#n
 \inserthexaimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{imagefile6}{keyvals}{caption}#n
+
+# Imágenes - left
 \insertimageleft[opt. label]{imagefile}{textwidth size}{caption}#n
 \insertimageleft{imagefile}{textwidth size}{caption}#n
 \insertimageleftboxed[opt. label]{imagefile}{textwidth size}{borderwidth}{caption}#n
 \insertimageleftboxed{imagefile}{textwidth size}{borderwidth}{caption}#n
 \insertimageleftline[opt. label]{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimageleftline{imagefile}{textwidth size}{nlines}{caption}#n
-\insertimageleftlineboxed[opt. label]{imagefile}{textwidth size}{nlines}{linewidth}{caption}#n
-\insertimageleftlineboxed{imagefile}{textwidth size}{nlines}{linewidth}{caption}#n
+\insertimageleftlineboxed[opt. label]{imagefile}{textwidth size}{linewidth}{nlines}{caption}#n
+\insertimageleftlineboxed{imagefile}{textwidth size}{linewidth}{nlines}{caption}#n
+\insertimageleftp[opt. label]{imagefile}{object width}{caption}#n
+\insertimageleftp{imagefile}{object width}{caption}#n
+\insertimageleftboxedp[opt. label]{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
+\insertimageleftboxedp{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
+\insertimageleftlinep[opt. label]{imagefile}{object width}{keyvals}{nlines}{caption}#n
+\insertimageleftlinep{imagefile}{object width}{keyvals}{nlines}{caption}#n
+\insertimageleftlineboxedp[opt. label]{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
+\insertimageleftlineboxedp{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
+
+# Imágenes - right
 \insertimageright[opt. label]{imagefile}{textwidth size}{caption}#n
 \insertimageright{imagefile}{textwidth size}{caption}#n
 \insertimagerightboxed[opt. label]{imagefile}{textwidth size}{border width}{caption}#n
 \insertimagerightboxed{imagefile}{textwidth size}{border width}{caption}#n
 \insertimagerightline[opt. label]{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimagerightline{imagefile}{textwidth size}{nlines}{caption}#n
-\insertimagerightlineboxed[opt. label]{imagefile}{textwidth size}{nlines}{border width}{caption}#n
-\insertimagerightlineboxed{imagefile}{textwidth size}{nlines}{border width}{caption}#n
+\insertimagerightlineboxed[opt. label]{imagefile}{textwidth size}{border width}{nlines}{caption}#n
+\insertimagerightlineboxed{imagefile}{textwidth size}{border width}{nlines}{caption}#n
+\insertimagerightp[opt. label]{imagefile}{object width}{caption}#n
+\insertimagerightp{imagefile}{object width}{caption}#n
+\insertimagerightboxedp[opt. label]{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
+\insertimagerightboxedp{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
+\insertimagerightlinep[opt. label]{imagefile}{object width}{keyvals}{nlines}{caption}#n
+\insertimagerightlinep{imagefile}{object width}{keyvals}{nlines}{caption}#n
+\insertimagerightlineboxedp[opt. label]{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
+\insertimagerightlineboxedp{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
+
+# Entorno images
 \begin{images}[opt. label]{caption}#n
 \begin{images}{caption}#n
 \end{images}
