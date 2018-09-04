@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.2
+# CWL-DOCS Template-Informe v2.3
 # Autocompletado para las funciones por defecto de Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (15/05/2018)
+# Fecha: (04/09/2018)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -159,6 +159,8 @@
 \sectionanum{title}#n
 \subsectionanum{title}#n
 \subsubsectionanum{title}#n
+\subsubsubsection{title}#n
+\subsubsubsectionanum{title}#n
 
 # Rotación de página
 \beginplandscape
