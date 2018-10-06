@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.3
+# CWL-DOCS Template-Informe v2.4
 # Autocompletado para las funciones por defecto de Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (04/09/2018)
+# Fecha: (06/10/2018)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -92,25 +92,16 @@
 \insertalignedcaptioned{equation}{caption}#n
 \insertalignedcaptionedanum{equation}{caption}#n
 
-# Imágenes
+# Entorno images
+\begin{images}[opt. label]{caption}#n
+\begin{images}{caption}#n
+\end{images}
+\addimage{imagefile}{keyvals}{caption}#n
+\addimageboxed{imagefile}{keyvals}{border width}{caption}#n
 \insertimage[opt. label]{imagefile}{keyvals}{caption}#n
 \insertimage{imagefile}{keyvals}{caption}#n
 \insertimageboxed[opt. label]{imagefile}{keyvals}{border width}{caption}#n
 \insertimageboxed{imagefile}{keyvals}{border width}{caption}#n
-\insertdoubleimage[opt. label]{imagefile1}{keyvals1}{caption1}{imagefile2}{keyvals2}{caption2}{caption}#n
-\insertdoubleimage{imagefile1}{keyvals1}{caption1}{imagefile2}{keyvals2}{caption2}{caption}#n
-\insertdoubleeqimage[opt. label]{imagefile1}{caption1}{imagefile2}{caption2}{keyvals}{caption}#n
-\insertdoubleeqimage{imagefile1}{caption1}{imagefile2}{caption2}{keyvals}{caption}#n
-\inserttripleimage[opt. label]{imagefile1}{keyvals1}{imagefile2}{keyvals2}{imagefile3}{keyvals3}{caption}#n
-\inserttripleimage{imagefile1}{keyvals1}{imagefile2}{keyvals2}{imagefile3}{keyvals3}{caption}#n
-\inserttripleeqimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{keyvals}{caption}#n
-\inserttripleeqimage{imagefile1}{imagefile2}{imagefile3}{keyvals}{caption}#n
-\insertquadimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{imagefile4}{keyvals}{caption}#n
-\insertquadimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{keyvals}{caption}#n
-\insertpentaimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{keyvals}{caption}#n
-\insertpentaimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{keyvals}{caption}#n
-\inserthexaimage[opt. label]{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{imagefile6}{keyvals}{caption}#n
-\inserthexaimage{imagefile1}{imagefile2}{imagefile3}{imagefile4}{imagefile5}{imagefile6}{keyvals}{caption}#n
 
 # Imágenes - left
 \insertimageleft[opt. label]{imagefile}{textwidth size}{caption}#n
@@ -148,13 +139,6 @@
 \insertimagerightlineboxedp[opt. label]{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
 \insertimagerightlineboxedp{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
 
-# Entorno images
-\begin{images}[opt. label]{caption}#n
-\begin{images}{caption}#n
-\end{images}
-\addimage{imagefile}{keyvals}{caption}#n
-\addimageboxed{imagefile}{keyvals}{border width}{caption}#n
-
 # Títulos
 \sectionanum{title}#n
 \subsectionanum{title}#n
@@ -165,6 +149,3 @@
 # Rotación de página
 \beginplandscape
 \endplandscape
-
-# Función de núcleo
-\coreimporttikz
