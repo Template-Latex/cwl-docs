@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.4
+# CWL-DOCS Template-Informe v2.5
 # Autocompletado para las funciones por defecto de Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (06/10/2018)
+# Fecha: (22/10/2018)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -59,9 +59,11 @@
 \begin{sourcecode}[opt. label]{language}{caption}#*
 \begin{sourcecode}{language}{caption}#*
 \end{sourcecode}
+\importsourcecode[opt. label]{language}{file}{caption}
 \begin{sourcecodep}[opt. label]{language}{params}{caption}#*
 \begin{sourcecodep}{language}{params}{caption}#*
 \end{sourcecodep}
+\importsourcecodep[opt. label]{language}{params}{file}{caption}
 
 # Ecuaciones
 \equationresize{textwidth size}{equation}
@@ -145,7 +147,3 @@
 \subsubsectionanum{title}#n
 \subsubsubsection{title}#n
 \subsubsubsectionanum{title}#n
-
-# Rotación de página
-\beginplandscape
-\endplandscape
