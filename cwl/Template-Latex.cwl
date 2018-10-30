@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.5
+# CWL-DOCS Template-Informe v2.6
 # Autocompletado para las funciones por defecto de Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (22/10/2018)
+# Fecha: (30/10/2018)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -50,10 +50,13 @@
 \insertemptypage#n
 \quotes{text}#n
 \insertemail{email account}#n
+\insertphone{phone number}#n
 \begin{itemizebf}[opt. params]#*
 \end{itemizebf}
 \begin{enumeratebf}[opt. params]#*
 \end{enumeratebf}
+\inserthfpdf[opt. params]{pdffile}#n
+\insertfullhfpdf[opt. params]{pdffile}#n
 
 # Código fuente
 \begin{sourcecode}[opt. label]{language}{caption}#*
