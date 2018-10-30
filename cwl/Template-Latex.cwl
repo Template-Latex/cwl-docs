@@ -55,8 +55,8 @@
 \end{itemizebf}
 \begin{enumeratebf}[opt. params]#*
 \end{enumeratebf}
-\inserthfpdf[opt. params]{pdffile}#n
-\insertfullhfpdf[opt. params]{pdffile}#n
+\includehfpdf[opt. params]{pdffile}#n
+\includefullhfpdf[opt. params]{pdffile}#n
 
 # Código fuente
 \begin{sourcecode}[opt. label]{language}{caption}#*
