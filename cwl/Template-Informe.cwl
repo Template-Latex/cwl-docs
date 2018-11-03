@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.6
+# CWL-DOCS Template-Informe v2.7
 # Autocompletado para Template-Informe
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (30/10/2018)
+# Fecha: (03/11/2018)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -14,8 +14,12 @@
 \subsectionanumnoi{title}#n
 \subsubsectionanumnoi{title}#n
 \subsubsubsectionanumnoi{title}#n
-\insertindextitle{title}{opt. superior margin}#n
+\insertindextitle[opt. superior margin]{title}#n
 \insertindextitle{title}#n
+\insertindextitlepage[opt. superior margin]{title}#n
+\insertindextitlepage{title}#n
+\createhiddensection[opt. superior margin]{title}#n
+\createhiddensection{title}#n
 \changeheadertitle{title}#n
 \newchapter{title}#n
 
