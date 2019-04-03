@@ -20,8 +20,6 @@
 \insertindextitlepage{title}#n
 \createhiddensection[opt. superior margin]{title}#n
 \createhiddensection{title}#n
-\changeheadertitle{title}#n
-\clearheadertitle#n
 \newchapter{title}#n
 
 # Ambientes

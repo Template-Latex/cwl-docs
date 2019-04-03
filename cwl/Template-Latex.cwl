@@ -153,3 +153,5 @@
 \subsubsectionanum{title}#n
 \subsubsubsection{title}#n
 \subsubsubsectionanum{title}#n
+\changeheadertitle{title}#n
+\clearheadertitle#n
