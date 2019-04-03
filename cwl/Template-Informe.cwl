@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.7.1
+# CWL-DOCS Template-Informe v2.7.2
 # Autocompletado para Template-Informe
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (26/12/2018)
+# Fecha: (03/04/2019)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -21,6 +21,7 @@
 \createhiddensection[opt. superior margin]{title}#n
 \createhiddensection{title}#n
 \changeheadertitle{title}#n
+\clearheadertitle#n
 \newchapter{title}#n
 
 # Ambientes
