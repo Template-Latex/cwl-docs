@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.7.2
+# CWL-DOCS Template-Informe v2.7.3
 # Autocompletado para las funciones por defecto de Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (03/04/2019)
+# Fecha: (26/04/2019)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -36,6 +36,12 @@
 \aacsc
 \aasec{expression}
 \aasec
+\bigp{expression}
+\biggp{expression}
+\bigc{expression}
+\biggc{expression}
+\bigb{expression}
+\biggb{expression}
 \fracpartial{function}{expression}
 \fracdpartial{function}{expression}
 \fracnpartial{function}{expression}{power}
