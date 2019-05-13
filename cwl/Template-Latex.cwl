@@ -1,70 +1,79 @@
-# CWL-DOCS Template-Informe v2.7.3
+# CWL-DOCS Template-Informe v2.7.4
 # Autocompletado para las funciones por defecto de Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (26/04/2019)
+# Fecha: (13/05/2019)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
 
 # Funciones del núcleo
-\throwerror{function}{message}
-\throwwarning{message}
-\throwbadconfig{message}{config}{expected params}
-\throwbadconfigondoc{message}{config}{expected params}
+\changemargin{left}{right}
 \checkvardefined{variable}
 \emptyvarerr{function}{variable}{message}
 \setcaptionmargincm{margin}
 \setpagemargincm{left}{top}{right}{bottom}
-\changemargin{left}{right}
+\throwbadconfig{message}{config}{expected params}
+\throwbadconfigondoc{message}{config}{expected params}
+\throwerror{function}{message}
+\throwwarning{message}
 
 # Elementos
-\newp#n
-\newpar{text}#n
-\newparnl{text}#n
-\lpow{expression}{power}
-\pow{expression}{power}
-\aacos{expression}
 \aacos
-\aasin{expression}
-\aasin
-\aatan{expression}
-\aatan
-\aacot{expression}
+\aacos{expression}
 \aacot
-\aacsc{expression}
+\aacot{expression}
 \aacsc
-\aasec{expression}
+\aacsc{expression}
 \aasec
-\bigp{expression}
-\biggp{expression}
-\bigc{expression}
-\biggc{expression}
+\aasec{expression}
+\aasin
+\aasin{expression}
+\aatan
+\aatan{expression}
+\Autexp
 \bigb{expression}
+\bigc{expression}
 \biggb{expression}
-\fracpartial{function}{expression}
-\fracdpartial{function}{expression}
-\fracnpartial{function}{expression}{power}
-\fracderivat{function}{expression}
+\biggc{expression}
+\biggp{expression}
+\bigp{expression}
+\Diffexp
+\divexp
+\begin{enumeratebf}[opt. params]#*
+\end{enumeratebf}
 \fracdderivat{function}{expression}
+\fracderivat{function}{expression}
+\fracdpartial{function}{expression}
 \fracnderivat{function}{expression}{power}
-\topequal{expression}{equal to}
-\underequal{expression}{equal to}
-\topsequal{expression}{equal to}
-\undersequal{expression}{equal to}
-\itemresize{textwidth size}{item}
-\insertemptypage#n
-\quotes{text}#n
+\fracnpartial{function}{expression}{power}
+\fracpartial{function}{expression}
+\Imexp
+\Imzexp
+\includefullhfpdf[opt. params]{pdffile}#n
+\includehfpdf[opt. params]{pdffile}#n
 \insertemail{email account}#n
+\insertemptypage#n
 \insertphone{phone number}#n
 \begin{itemizebf}[opt. params]#*
 \end{itemizebf}
-\begin{enumeratebf}[opt. params]#*
-\end{enumeratebf}
-\includehfpdf[opt. params]{pdffile}#n
-\includefullhfpdf[opt. params]{pdffile}#n
+\itemresize{textwidth size}{item}
+\lpow{expression}{power}
+\newp#n
+\newpar{text}#n
+\newparnl{text}#n
+\pow{expression}{power}
+\quotes{text}#n
+\Reexp
+\restartequation#n
+\Rezexp
+\topequal{expression}{equal to}
+\topsequal{expression}{equal to}
+\underequal{expression}{equal to}
+\undersequal{expression}{equal to}
 
 # Código fuente
+\importsourcecodep[opt. label]{language}{params}{file}{caption}#n
 \begin{sourcecode}[opt. label]{language}{caption}#*
 \begin{sourcecode}{language}{caption}#*
 \end{sourcecode}
@@ -72,10 +81,19 @@
 \begin{sourcecodep}[opt. label]{language}{params}{caption}#*
 \begin{sourcecodep}{language}{params}{caption}#*
 \end{sourcecodep}
-\importsourcecodep[opt. label]{language}{params}{file}{caption}
 
 # Ecuaciones
 \equationresize{textwidth size}{equation}
+\insertalign{equation}#n
+\insertalignanum{equation}#n
+\insertaligncaptioned{equation}{caption}#n
+\insertaligncaptionedanum{equation}{caption}#n
+\insertaligned[opt. label]{equation}#n
+\insertaligned{equation}#n
+\insertalignedanum{equation}#n
+\insertalignedcaptioned[opt. label]{equation}{caption}#n
+\insertalignedcaptioned{equation}{caption}#n
+\insertalignedcaptionedanum{equation}{caption}#n
 \insertequation[opt. label]{equation}#n
 \insertequation{equation}#n
 \insertequationanum{equation}#n
@@ -92,23 +110,13 @@
 \insertgatheredcaptioned[opt. label]{equation}{caption}#n
 \insertgatheredcaptioned{equation}{caption}#n
 \insertgatheredcaptionedanum{equation}{caption}#n
-\insertalign{equation}#n
-\insertalignanum{equation}#n
-\insertaligncaptioned{equation}{caption}#n
-\insertaligncaptionedanum{equation}{caption}#n
-\insertaligned[opt. label]{equation}#n
-\insertaligned{equation}#n
-\insertalignedanum{equation}#n
-\insertalignedcaptioned[opt. label]{equation}{caption}#n
-\insertalignedcaptioned{equation}{caption}#n
-\insertalignedcaptionedanum{equation}{caption}#n
 
 # Entorno images
+\addimage{imagefile}{keyvals}{caption}#n
+\addimageboxed{imagefile}{keyvals}{border width}{caption}#n
 \begin{images}[opt. label]{caption}#n
 \begin{images}{caption}#n
 \end{images}
-\addimage{imagefile}{keyvals}{caption}#n
-\addimageboxed{imagefile}{keyvals}{border width}{caption}#n
 \imageshspace{margin}#n
 \imagesnewline#n
 \imagesvspace{margin}#n
@@ -122,42 +130,42 @@
 \insertimageleft{imagefile}{textwidth size}{caption}#n
 \insertimageleftboxed[opt. label]{imagefile}{textwidth size}{borderwidth}{caption}#n
 \insertimageleftboxed{imagefile}{textwidth size}{borderwidth}{caption}#n
+\insertimageleftboxedp[opt. label]{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
+\insertimageleftboxedp{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
 \insertimageleftline[opt. label]{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimageleftline{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimageleftlineboxed[opt. label]{imagefile}{textwidth size}{linewidth}{nlines}{caption}#n
 \insertimageleftlineboxed{imagefile}{textwidth size}{linewidth}{nlines}{caption}#n
-\insertimageleftp[opt. label]{imagefile}{object width}{caption}#n
-\insertimageleftp{imagefile}{object width}{caption}#n
-\insertimageleftboxedp[opt. label]{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
-\insertimageleftboxedp{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
-\insertimageleftlinep[opt. label]{imagefile}{object width}{keyvals}{nlines}{caption}#n
-\insertimageleftlinep{imagefile}{object width}{keyvals}{nlines}{caption}#n
 \insertimageleftlineboxedp[opt. label]{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
 \insertimageleftlineboxedp{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
+\insertimageleftlinep[opt. label]{imagefile}{object width}{keyvals}{nlines}{caption}#n
+\insertimageleftlinep{imagefile}{object width}{keyvals}{nlines}{caption}#n
+\insertimageleftp[opt. label]{imagefile}{object width}{caption}#n
+\insertimageleftp{imagefile}{object width}{caption}#n
 
 # Imágenes - right
 \insertimageright[opt. label]{imagefile}{textwidth size}{caption}#n
 \insertimageright{imagefile}{textwidth size}{caption}#n
 \insertimagerightboxed[opt. label]{imagefile}{textwidth size}{border width}{caption}#n
 \insertimagerightboxed{imagefile}{textwidth size}{border width}{caption}#n
+\insertimagerightboxedp[opt. label]{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
+\insertimagerightboxedp{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
 \insertimagerightline[opt. label]{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimagerightline{imagefile}{textwidth size}{nlines}{caption}#n
 \insertimagerightlineboxed[opt. label]{imagefile}{textwidth size}{border width}{nlines}{caption}#n
 \insertimagerightlineboxed{imagefile}{textwidth size}{border width}{nlines}{caption}#n
-\insertimagerightp[opt. label]{imagefile}{object width}{caption}#n
-\insertimagerightp{imagefile}{object width}{caption}#n
-\insertimagerightboxedp[opt. label]{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
-\insertimagerightboxedp{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
-\insertimagerightlinep[opt. label]{imagefile}{object width}{keyvals}{nlines}{caption}#n
-\insertimagerightlinep{imagefile}{object width}{keyvals}{nlines}{caption}#n
 \insertimagerightlineboxedp[opt. label]{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
 \insertimagerightlineboxedp{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
+\insertimagerightlinep[opt. label]{imagefile}{object width}{keyvals}{nlines}{caption}#n
+\insertimagerightlinep{imagefile}{object width}{keyvals}{nlines}{caption}#n
+\insertimagerightp[opt. label]{imagefile}{object width}{caption}#n
+\insertimagerightp{imagefile}{object width}{caption}#n
 
 # Títulos
+\changeheadertitle{title}#n
+\clearheadertitle#n
 \sectionanum{title}#n
 \subsectionanum{title}#n
 \subsubsectionanum{title}#n
 \subsubsubsection{title}#n
 \subsubsubsectionanum{title}#n
-\changeheadertitle{title}#n
-\clearheadertitle#n
