@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.7.5
+# CWL-DOCS Template-Informe v2.7.6
 # Autocompletado para Template-Auxiliares
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (09/06/2019)
+# Fecha: (16/06/2019)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -17,8 +17,6 @@
 \throwbadconfigondoc{message}{config}{expected params}
 \throwerror{function}{message}
 \throwwarning{message}
-\disablecaptionmargin
-\resetcaptionmargin
 
 # Elementos
 \aacos
@@ -34,6 +32,8 @@
 \aatan
 \aatan{expression}
 \Autexp
+\begin{enumeratebf}[opt. params]#*
+\begin{itemizebf}[opt. params]#*
 \bigb{expression}
 \bigc{expression}
 \biggb{expression}
@@ -41,9 +41,13 @@
 \biggp{expression}
 \bigp{expression}
 \Diffexp
+\disablecaptionmargin
+\disabletablerowcolor
 \divexp
-\begin{enumeratebf}[opt. params]#*
+\enabletablerowcolor
+\enabletablerowcolor[opt. index]
 \end{enumeratebf}
+\end{itemizebf}
 \fracdderivat{function}{expression}
 \fracderivat{function}{expression}
 \fracdpartial{function}{expression}
@@ -57,23 +61,24 @@
 \insertemail{email account}#n
 \insertemptypage#n
 \insertphone{phone number}#n
-\begin{itemizebf}[opt. params]#*
-\end{itemizebf}
 \itemresize{textwidth size}{item}
 \lpow{expression}{power}
 \newp#n
 \newpar{text}#n
 \newparnl{text}#n
+\overbar{expression}
 \pow{expression}{power}
 \quotes{text}#n
 \Reexp
+\resetcaptionmargin
 \restartequation#n
 \Rezexp
+\scite{citekey}#c
+\switchtablerowcolors
 \topequal{expression}{equal to}
 \topsequal{expression}{equal to}
 \underequal{expression}{equal to}
 \undersequal{expression}{equal to}
-\overbar{expression}
 
 # Código fuente
 \importsourcecodep[opt. label]{language}{params}{file}{caption}#n
