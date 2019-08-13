@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.7.6
+# CWL-DOCS Template-Informe v2.7.7
 # Autocompletado para Template-Auxiliares
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (16/06/2019)
+# Fecha: (13/08/2019)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -108,6 +108,12 @@
 \insertequationcaptioned[opt. label]{equation}{caption}#n
 \insertequationcaptioned{equation}{caption}#n
 \insertequationcaptionedanum{equation}{caption}#n
+\insertequationleft[opt. label]{equation}#n
+\insertequationleft{equation}#n
+\insertequationleftanum{equation}#n
+\insertequationright[opt. label]{equation}#n
+\insertequationright{equation}#n
+\insertequationrightanum{equation}#n
 \insertgather{equation}#n
 \insertgatheranum{equation}#n
 \insertgathercaptioned{equation}{caption}#n
