@@ -1,22 +1,24 @@
-# CWL-DOCS Template-Informe v2.7.7
+# CWL-DOCS Template-Informe v2.7.8
 # Autocompletado para Template-Auxiliares
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (13/08/2019)
+# Fecha: (05/09/2019)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
 
 # Funciones del núcleo
-\changemargin{left}{right}
-\checkvardefined{variable}
-\emptyvarerr{function}{variable}{message}
-\setcaptionmargincm{margin}
-\setpagemargincm{left}{top}{right}{bottom}
-\throwbadconfig{message}{config}{expected params}
-\throwbadconfigondoc{message}{config}{expected params}
-\throwerror{function}{message}
-\throwwarning{message}
+\changemargin{left}{right}#n
+\checkvardefined{variable}}#n
+\emptyvarerr{function}{variable}{message}}#n
+\resetindexcaption}#n
+\setcaptionmargincm{margin}}#n
+\setindexcaption{caption title}}#n
+\setpagemargincm{left}{top}{right}{bottom}}#n
+\throwbadconfig{message}{config}{expected params}}#n
+\throwbadconfigondoc{message}{config}{expected params}}#n
+\throwerror{function}{message}}#n
+\throwwarning{message}}#n
 
 # Elementos
 \aacos
@@ -58,6 +60,7 @@
 \Imzexp
 \includefullhfpdf[opt. params]{pdffile}#n
 \includehfpdf[opt. params]{pdffile}#n
+\insertblankpage#n
 \insertemail{email account}#n
 \insertemptypage#n
 \insertphone{phone number}#n
@@ -138,6 +141,8 @@
 \insertimage{imagefile}{keyvals}{caption}#n
 \insertimageboxed[opt. label]{imagefile}{keyvals}{border width}{caption}#n
 \insertimageboxed{imagefile}{keyvals}{border width}{caption}#n
+\inserttableimage{imagefile}{keyvals}#n
+\inserttableimageboxed{imagefile}{keyvals}{border width}#n
 
 # Imágenes - left
 \insertimageleft[opt. label]{imagefile}{textwidth size}{caption}#n
