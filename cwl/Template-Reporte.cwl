@@ -6,3 +6,10 @@
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
+
+# Generales
+\inserttitle
+
+# Entornos
+\begin{abstract}
+\end{abstract}
