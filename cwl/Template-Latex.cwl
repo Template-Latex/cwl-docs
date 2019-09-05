@@ -1,5 +1,5 @@
 # CWL-DOCS Template-Informe v2.7.8
-# Autocompletado para Template-Auxiliares
+# Autocompletado para la familia de templates
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
 # Fecha: (05/09/2019)
