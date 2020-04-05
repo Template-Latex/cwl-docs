@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.7.8
+# CWL-DOCS Template-Informe v2.8.0
 # Autocompletado para Template-Tesis
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (05/09/2019)
+# Fecha: (05/04/2020)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -16,3 +16,7 @@
 \end{anexo}
 \begin{resumen}
 \end{resumen}
+
+# Ecuaciones
+\insertindexequation[opt. label]{equation}{label}#n
+\insertindexequation{equation}{label}#n
