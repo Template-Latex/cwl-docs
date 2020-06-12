@@ -1,20 +1,21 @@
-# CWL-DOCS Template-Informe v2.8.0
-# Autocompletado para la familia de templates
+# CWL-DOCS Template-Informe v2.8.1
+# Autocompletado para Template-Auxiliares
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (05/04/2020)
+# Fecha: (12/06/2020)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
 
 # Funciones del núcleo
 \changemargin{left}{right}#n
+\checkextravarexist{variable}{message}
+\checkonlyonenvimage#n
+\checkoutsideenvimage#n
 \checkvardefined{variable}}#n
+\coreimporttikz#n
+\coreintializetitlenumbering#n
 \emptyvarerr{function}{variable}{message}}#n
-\resetindexcaption}#n
-\setcaptionmargincm{margin}}#n
-\setindexcaption{caption title}}#n
-\setpagemargincm{left}{top}{right}{bottom}}#n
 \throwbadconfig{message}{config}{expected params}}#n
 \throwbadconfigondoc{message}{config}{expected params}}#n
 \throwerror{function}{message}}#n
@@ -43,8 +44,6 @@
 \biggp{expression}
 \bigp{expression}
 \Diffexp
-\disablecaptionmargin
-\disabletablerowcolor
 \divexp
 \enabletablerowcolor
 \enabletablerowcolor[opt. index]
@@ -58,26 +57,14 @@
 \fracpartial{function}{expression}
 \Imexp
 \Imzexp
-\includefullhfpdf[opt. params]{pdffile}#n
-\includehfpdf[opt. params]{pdffile}#n
-\insertblankpage#n
-\insertemail{email account}#n
-\insertemptypage#n
-\insertphone{phone number}#n
-\itemresize{textwidth size}{item}
 \lpow{expression}{power}
 \newp#n
 \newpar{text}#n
 \newparnl{text}#n
 \overbar{expression}
 \pow{expression}{power}
-\quotes{text}#n
 \Reexp
-\resetcaptionmargin
-\restartequation#n
 \Rezexp
-\scite{citekey}#c
-\switchtablerowcolors
 \topequal{expression}{equal to}
 \topsequal{expression}{equal to}
 \underequal{expression}{equal to}
@@ -188,3 +175,28 @@
 \subsubsectionanum{title}#n
 \subsubsubsection{title}#n
 \subsubsubsectionanum{title}#n
+
+# Otros
+\begin{landscape}
+\end{landscape}
+\changepagesize[opt. rotation]{page width cm}{page height cm}#n
+\changepagesizeformat[opt. rotation]{page format}#n
+\disablecaptionmargin#n
+\disabletablerowcolor#n
+\includefullhfpdf[opt. params]{pdffile}#n
+\includehfpdf[opt. params]{pdffile}#n
+\insertblankpage#n
+\insertemail{email account}#n
+\insertemptypage#n
+\insertphone{phone number}#n
+\itemresize{textwidth size}{item}
+\newchapter{title}#n
+\quotes{text}#n
+\resetcaptionmargin
+\resetindexcaption}#n
+\restartequation#n
+\scite{citekey}#c
+\setcaptionmargincm{margin}}#n
+\setindexcaption{caption title}}#n
+\setpagemargincm{left}{top}{right}{bottom}}#n
+\switchtablerowcolors
