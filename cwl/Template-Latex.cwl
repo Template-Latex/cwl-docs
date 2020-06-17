@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.8.1
+# CWL-DOCS Template-Informe v2.8.2
 # Autocompletado para Template-Auxiliares
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (12/06/2020)
+# Fecha: (17/06/2020)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -128,6 +128,14 @@
 \insertimage{imagefile}{keyvals}{caption}#n
 \insertimageboxed[opt. label]{imagefile}{keyvals}{border width}{caption}#n
 \insertimageboxed{imagefile}{keyvals}{border width}{caption}#n
+\insertimagemc[opt. label]{imagefile}{keyvals}{caption}#n
+\insertimagemc{imagefile}{keyvals}{caption}#n
+\insertimageboxedmc[opt. label]{imagefile}{keyvals}{border width}{caption}#n
+\insertimageboxedmc{imagefile}{keyvals}{border width}{caption}#n
+\insertimagemcfull[opt. label]{imagefile}{keyvals}{position}{caption}#n
+\insertimagemcfull{imagefile}{keyvals}{position}{caption}#n
+\insertimageboxedmcfull[opt. label]{imagefile}{keyvals}{border width}{position}{caption}#n
+\insertimageboxedmcfull{imagefile}{keyvals}{border width}{position}{caption}#n
 \inserttableimage{imagefile}{keyvals}#n
 \inserttableimageboxed{imagefile}{keyvals}{border width}#n
 
