@@ -120,7 +120,10 @@
 \addimageboxed{imagefile}{keyvals}{border width}{caption}#n
 \begin{images}[opt. label]{caption}#n
 \begin{images}{caption}#n
+\begin{imagesmc}[opt. label]{position}{caption}#n
+\begin{imagesmc}{position}{caption}#n
 \end{images}
+\end{imagesmc}
 \imageshspace{margin}#n
 \imagesnewline#n
 \imagesvspace{margin}#n
