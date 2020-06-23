@@ -186,6 +186,7 @@
 # Otros
 \begin{landscape}
 \end{landscape}
+\addpathimage{folder}
 \changepagesize[opt. rotation]{page width cm}{page height cm}#n
 \changepagesizeformat[opt. rotation]{page format}#n
 \disablecaptionmargin#n
