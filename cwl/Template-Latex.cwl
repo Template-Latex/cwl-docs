@@ -122,11 +122,8 @@
 \begin{images}{caption}#n
 \begin{imagesmc}[opt. label]{caption}#n
 \begin{imagesmc}{caption}#n
-\begin{imagesmcfull}[opt. label]{position}{caption}#n
-\begin{imagesmcfull}{position}{caption}#n
 \end{images}
 \end{imagesmc}
-\end{imagesmcfull}
 \imageshspace{margin}#n
 \imagesnewline#n
 \imagesvspace{margin}#n
@@ -134,14 +131,10 @@
 \insertimage{imagefile}{keyvals}{caption}#n
 \insertimageboxed[opt. label]{imagefile}{keyvals}{border width}{caption}#n
 \insertimageboxed{imagefile}{keyvals}{border width}{caption}#n
-\insertimagemc[opt. label]{imagefile}{keyvals}{caption}#n
-\insertimagemc{imagefile}{keyvals}{caption}#n
-\insertimageboxedmc[opt. label]{imagefile}{keyvals}{border width}{caption}#n
-\insertimageboxedmc{imagefile}{keyvals}{border width}{caption}#n
-\insertimagemcfull[opt. label]{imagefile}{keyvals}{position}{caption}#n
-\insertimagemcfull{imagefile}{keyvals}{position}{caption}#n
-\insertimageboxedmcfull[opt. label]{imagefile}{keyvals}{border width}{position}{caption}#n
-\insertimageboxedmcfull{imagefile}{keyvals}{border width}{position}{caption}#n
+\insertimagemc[opt. label]{imagefile}{keyvals}{position}{caption}#n
+\insertimagemc{imagefile}{keyvals}{position}{caption}#n
+\insertimageboxedmc[opt. label]{imagefile}{keyvals}{border width}{position}{caption}#n
+\insertimageboxedmc{imagefile}{keyvals}{border width}{position}{caption}#n
 \inserttableimage{imagefile}{keyvals}#n
 \inserttableimageboxed{imagefile}{keyvals}{border width}#n
 
