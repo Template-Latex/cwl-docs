@@ -35,44 +35,54 @@
         "2": {
             "NEWLINE": true
         },
-        "3": {
+        "4": {
             "IMAGE": "https://latex.ppizarror.com/res/badges/tesis.svg",
             "HREF": "https://github.com/Template-Latex/Template-Tesis/",
             "ALT": "Template-Tesis",
-            "SHOW": false
+            "SHOW": true
         },
-        "4": {
+        "5": {
             "IMAGE": "https://latex.ppizarror.com/res/badges/apunte.svg",
             "HREF": "https://github.com/Template-Latex/Template-Apunte/",
             "ALT": "Template-Apunte",
             "SHOW": false
         },
-        "5": {
+        "6": {
             "IMAGE": "https://latex.ppizarror.com/res/badges/tareas.svg",
             "HREF": "https://github.com/Template-Latex/Template-Tareas/",
             "ALT": "Template-Tareas",
             "SHOW": false
         },
-        "6": {
+        "7": {
             "IMAGE": "https://latex.ppizarror.com/res/badges/auxiliares.svg",
             "HREF": "https://github.com/Template-Latex/Template-Auxiliares/",
             "ALT": "Template-Auxiliares"
         },
-        "7": {
+        "8": {
             "IMAGE": "https://latex.ppizarror.com/res/badges/controles.svg",
             "HREF": "https://github.com/Template-Latex/Template-Controles/",
             "ALT": "Template-Controles"
         },
-        "8": {
+        "9": {
             "IMAGE": "https://latex.ppizarror.com/res/badges/pauta.svg",
             "HREF": "https://github.com/Template-Latex/Template-Pautas/",
             "ALT": "Template-Pautas",
             "SHOW": false
         },
-        "9": {
+        "10": {
             "IMAGE": "https://latex.ppizarror.com/res/badges/informe.svg",
             "HREF": "https://github.com/Template-Latex/Template-Informe/",
             "ALT": "Template-Informe"
+        },
+        "11": {
+            "IMAGE": "https://latex.ppizarror.com/res/badges/reporte.svg",
+            "HREF": "https://github.com/Template-Latex/Template-Reporte/",
+            "ALT": "Template-Reporte"
+        },
+        "12": {
+            "IMAGE": "https://latex.ppizarror.com/res/badges/professionalcv.svg",
+            "HREF": "https://github.com/Template-Latex/Professional-CV/",
+            "ALT": "Professional-CV"
         }
     },
     "CONTENT": "readme.content.md"
