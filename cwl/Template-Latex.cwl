@@ -81,7 +81,7 @@
 \end{sourcecodep}
 
 # Ecuaciones
-\equationresize{textwidth size}{equation}
+\equationresize{linewidth size}{equation}
 \insertalign{equation}#n
 \insertalignanum{equation}#n
 \insertaligncaptioned{equation}{caption}#n
@@ -141,16 +141,16 @@
 \inserttableimageboxed{imagefile}{keyvals}{border width}#n
 
 # Imágenes - left
-\insertimageleft[opt. label]{imagefile}{textwidth size}{caption}#n
-\insertimageleft{imagefile}{textwidth size}{caption}#n
-\insertimageleftboxed[opt. label]{imagefile}{textwidth size}{borderwidth}{caption}#n
-\insertimageleftboxed{imagefile}{textwidth size}{borderwidth}{caption}#n
+\insertimageleft[opt. label]{imagefile}{linewidth size}{caption}#n
+\insertimageleft{imagefile}{linewidth size}{caption}#n
+\insertimageleftboxed[opt. label]{imagefile}{linewidth size}{borderwidth}{caption}#n
+\insertimageleftboxed{imagefile}{linewidth size}{borderwidth}{caption}#n
 \insertimageleftboxedp[opt. label]{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
 \insertimageleftboxedp{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
-\insertimageleftline[opt. label]{imagefile}{textwidth size}{nlines}{caption}#n
-\insertimageleftline{imagefile}{textwidth size}{nlines}{caption}#n
-\insertimageleftlineboxed[opt. label]{imagefile}{textwidth size}{linewidth}{nlines}{caption}#n
-\insertimageleftlineboxed{imagefile}{textwidth size}{linewidth}{nlines}{caption}#n
+\insertimageleftline[opt. label]{imagefile}{linewidth size}{nlines}{caption}#n
+\insertimageleftline{imagefile}{linewidth size}{nlines}{caption}#n
+\insertimageleftlineboxed[opt. label]{imagefile}{linewidth size}{linewidth}{nlines}{caption}#n
+\insertimageleftlineboxed{imagefile}{linewidth size}{linewidth}{nlines}{caption}#n
 \insertimageleftlineboxedp[opt. label]{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
 \insertimageleftlineboxedp{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
 \insertimageleftlinep[opt. label]{imagefile}{object width}{keyvals}{nlines}{caption}#n
@@ -159,16 +159,16 @@
 \insertimageleftp{imagefile}{object width}{caption}#n
 
 # Imágenes - right
-\insertimageright[opt. label]{imagefile}{textwidth size}{caption}#n
-\insertimageright{imagefile}{textwidth size}{caption}#n
-\insertimagerightboxed[opt. label]{imagefile}{textwidth size}{border width}{caption}#n
-\insertimagerightboxed{imagefile}{textwidth size}{border width}{caption}#n
+\insertimageright[opt. label]{imagefile}{linewidth size}{caption}#n
+\insertimageright{imagefile}{linewidth size}{caption}#n
+\insertimagerightboxed[opt. label]{imagefile}{linewidth size}{border width}{caption}#n
+\insertimagerightboxed{imagefile}{linewidth size}{border width}{caption}#n
 \insertimagerightboxedp[opt. label]{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
 \insertimagerightboxedp{imagefile}{object width}{keyvals}{borderwidth}{caption}#n
-\insertimagerightline[opt. label]{imagefile}{textwidth size}{nlines}{caption}#n
-\insertimagerightline{imagefile}{textwidth size}{nlines}{caption}#n
-\insertimagerightlineboxed[opt. label]{imagefile}{textwidth size}{border width}{nlines}{caption}#n
-\insertimagerightlineboxed{imagefile}{textwidth size}{border width}{nlines}{caption}#n
+\insertimagerightline[opt. label]{imagefile}{linewidth size}{nlines}{caption}#n
+\insertimagerightline{imagefile}{linewidth size}{nlines}{caption}#n
+\insertimagerightlineboxed[opt. label]{imagefile}{linewidth size}{border width}{nlines}{caption}#n
+\insertimagerightlineboxed{imagefile}{linewidth size}{border width}{nlines}{caption}#n
 \insertimagerightlineboxedp[opt. label]{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
 \insertimagerightlineboxedp{imagefile}{object width}{keyvals}{linewidth}{nlines}{caption}#n
 \insertimagerightlinep[opt. label]{imagefile}{object width}{keyvals}{nlines}{caption}#n
@@ -199,7 +199,7 @@
 \insertemail{email account}#n
 \insertemptypage#n
 \insertphone{phone number}#n
-\itemresize{textwidth size}{item}
+\itemresize{linewidth size}{item}
 \newchapter{title}#n
 \newcolumn
 \newpagemulticol
