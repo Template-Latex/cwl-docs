@@ -233,7 +233,7 @@
 \resetindexcaption}#n
 \restartequation#n
 \scite{citekey}#c
-\setcaptionmargincm{margin}}#n
-\setindexcaption{caption title}}#n
-\setpagemargincm{left}{top}{right}{bottom}}#n
+\setcaptionmargincm{margin}#n
+\setindexcaption{caption title}#n
+\setpagemargincm{left}{top}{right}{bottom}#n
 \switchtablerowcolors
