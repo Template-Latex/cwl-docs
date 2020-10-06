@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.8.5
+# CWL-DOCS Template-Informe v2.8.6
 # Autocompletado para Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (23/07/2020)
+# Fecha: (10/06/2020)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -12,16 +12,17 @@
 \checkextravarexist{variable}{message}
 \checkonlyonenvimage#n
 \checkoutsideenvimage#n
-\checkvardefined{variable}}#n
+\checkvardefined{variable}#n
 \coreimporttikz#n
 \coreintializetitlenumbering#n
-\emptyvarerr{function}{variable}{message}}#n
-\throwbadconfig{message}{config}{expected params}}#n
-\throwbadconfigondoc{message}{config}{expected params}}#n
-\throwerror{function}{message}}#n
-\throwwarning{message}}#n
+\emptyvarerr{function}{variable}{message}#n
+\throwbadconfig{message}{config}{expected params}#n
+\throwbadconfigondoc{message}{config}{expected params}#n
+\throwerror{function}{message}#n
+\throwwarning{message}#n
 
-# Elementos
+# Expresiones mat
+\A
 \aacos
 \aacos{expression}
 \aacot
@@ -35,50 +36,65 @@
 \aatan
 \aatan{expression}
 \Autexp
-\begin{enumeratebf}[opt. params]#*
-\begin{itemizebf}[opt. params]#*
 \bigb{expression}
 \bigc{expression}
 \biggb{expression}
 \biggc{expression}
 \biggp{expression}
 \bigp{expression}
+\C
+\ceilexp{expression}
+\D
 \Diffexp
 \divexp
-\enabletablerowcolor
-\enabletablerowcolor[opt. index]
-\end{enumeratebf}
-\end{itemizebf}
+\E
+\F
+\floorexp{expression}
 \fracdderivat{function}{expression}
 \fracderivat{function}{expression}
 \fracdpartial{function}{expression}
 \fracnderivat{function}{expression}{power}
 \fracnpartial{function}{expression}{power}
 \fracpartial{function}{expression}
+\G
+\H
 \Imexp
 \Imzexp
+\K
+\L
 \lpow{expression}{power}
-\newp#n
-\newpar{text}#n
-\newparnl{text}#n
+\M
+\mathbit{expression}
+\Mod{expression}
+\N
 \overbar{expression}
+\P
 \pow{expression}{power}
+\Q
+\R
 \Reexp
 \Rezexp
+\S
+\T
 \topequal{expression}{equal to}
+\topequaltext{expression}{equal to text}
 \topsequal{expression}{equal to}
+\topsequaltext{expression}{equal to text}
 \underequal{expression}{equal to}
+\underequaltext{expression}{equal to text}
 \undersequal{expression}{equal to}
+\undersequaltext{expression}{equal to text}
+\Z
 
 # Código fuente
-\importsourcecodep[opt. label]{language}{params}{file}{caption}#n
 \begin{sourcecode}[opt. label]{language}{caption}#*
 \begin{sourcecode}{language}{caption}#*
-\end{sourcecode}
-\importsourcecode[opt. label]{language}{file}{caption}
 \begin{sourcecodep}[opt. label]{language}{params}{caption}#*
 \begin{sourcecodep}{language}{params}{caption}#*
+\end{sourcecode}
 \end{sourcecodep}
+\importsourcecode[opt. label]{language}{file}{caption}
+\importsourcecodep[opt. label]{language}{params}{file}{caption}#n
 
 # Ecuaciones
 \equationresize{linewidth size}{equation}
@@ -118,8 +134,8 @@
 # Entorno images
 \addimage{imagefile}{keyvals}{caption}#n
 \addimageboxed{imagefile}{keyvals}{border width}{caption}#n
-\addimagenum{imagefile}{keyvals}#n
 \addimageboxedanum{imagefile}{keyvals}{border width}#n
+\addimagenum{imagefile}{keyvals}#n
 \begin{images}[opt. label]{caption}#n
 \begin{images}{caption}#n
 \begin{imagesmc}[opt. label]{caption}#n
@@ -133,10 +149,10 @@
 \insertimage{imagefile}{keyvals}{caption}#n
 \insertimageboxed[opt. label]{imagefile}{keyvals}{border width}{caption}#n
 \insertimageboxed{imagefile}{keyvals}{border width}{caption}#n
-\insertimagemc[opt. label]{imagefile}{keyvals}{position}{caption}#n
-\insertimagemc{imagefile}{keyvals}{position}{caption}#n
 \insertimageboxedmc[opt. label]{imagefile}{keyvals}{border width}{position}{caption}#n
 \insertimageboxedmc{imagefile}{keyvals}{border width}{position}{caption}#n
+\insertimagemc[opt. label]{imagefile}{keyvals}{position}{caption}#n
+\insertimagemc{imagefile}{keyvals}{position}{caption}#n
 \inserttableimage{imagefile}{keyvals}#n
 \inserttableimageboxed{imagefile}{keyvals}{border width}#n
 
@@ -186,13 +202,19 @@
 \subsubsubsectionanum{title}#n
 
 # Otros
-\begin{landscape}
-\end{landscape}
 \addpathimage{folder}
+\begin{enumeratebf}[opt. params]#*
+\begin{itemizebf}[opt. params]#*
+\begin{landscape}
 \changepagesize[opt. rotation]{page width cm}{page height cm}#n
 \changepagesizeformat[opt. rotation]{page format}#n
 \disablecaptionmargin#n
 \disabletablerowcolor#n
+\enabletablerowcolor
+\enabletablerowcolor[opt. index]
+\end{enumeratebf}
+\end{itemizebf}
+\end{landscape}
 \includefullhfpdf[opt. params]{pdffile}#n
 \includehfpdf[opt. params]{pdffile}#n
 \insertblankpage#n
@@ -202,7 +224,10 @@
 \itemresize{linewidth size}{item}
 \newchapter{title}#n
 \newcolumn
+\newp#n
 \newpagemulticol
+\newpar{text}#n
+\newparnl{text}#n
 \quotes{text}#n
 \resetcaptionmargin
 \resetindexcaption}#n
