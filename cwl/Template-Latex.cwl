@@ -1,19 +1,23 @@
-# CWL-DOCS Template-Informe v2.8.6
+# CWL-DOCS Template-Informe v2.8.7
 # Autocompletado para Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (10/06/2020)
+# Fecha: (10/11/2020)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
 
 # Funciones del núcleo
+\addpathimage{folder}
 \changemargin{left}{right}#n
 \checkextravarexist{variable}{message}
+\checkinsidemulticol
 \checkonlyonenvimage#n
 \checkoutsideenvimage#n
 \checkvardefined{variable}#n
+\corecheckfontsize
 \coreimporttikz#n
+\coreintializetitlenumbering
 \coreintializetitlenumbering#n
 \emptyvarerr{function}{variable}{message}#n
 \throwbadconfig{message}{config}{expected params}#n
@@ -21,7 +25,7 @@
 \throwerror{function}{message}#n
 \throwwarning{message}#n
 
-# Expresiones mat
+# Expresiones matemáticas
 \A
 \aacos
 \aacos{expression}
@@ -36,6 +40,9 @@
 \aatan
 \aatan{expression}
 \Autexp
+\B
+\begin{defn}
+\begin{defn}[opt. label]
 \bigb{expression}
 \bigc{expression}
 \biggb{expression}
@@ -48,6 +55,7 @@
 \Diffexp
 \divexp
 \E
+\end{defn}
 \F
 \floorexp{expression}
 \fracdderivat{function}{expression}
@@ -58,8 +66,10 @@
 \fracpartial{function}{expression}
 \G
 \H
+\I
 \Imexp
 \Imzexp
+\J
 \K
 \L
 \lpow{expression}{power}
@@ -67,6 +77,14 @@
 \mathbit{expression}
 \Mod{expression}
 \N
+\O
+\oldC
+\oldG
+\oldH
+\oldL
+\oldP
+\oldS
+\oldU
 \overbar{expression}
 \P
 \pow{expression}{power}
@@ -80,10 +98,15 @@
 \topequaltext{expression}{equal to text}
 \topsequal{expression}{equal to}
 \topsequaltext{expression}{equal to text}
+\U
 \underequal{expression}{equal to}
 \underequaltext{expression}{equal to text}
 \undersequal{expression}{equal to}
 \undersequaltext{expression}{equal to text}
+\V
+\W
+\X
+\Y
 \Z
 
 # Código fuente
@@ -130,6 +153,8 @@
 \insertgatheredcaptioned[opt. label]{equation}{caption}#n
 \insertgatheredcaptioned{equation}{caption}#n
 \insertgatheredcaptionedanum{equation}{caption}#n
+# \insertindexequation[opt. label]{equation}{index title}#n
+# \insertindexequation{equation}{index title}#n
 
 # Entorno images
 \addimage{imagefile}{keyvals}{caption}#n
@@ -195,6 +220,9 @@
 # Títulos
 \changeheadertitle{title}#n
 \clearheadertitle#n
+# \createhiddensection[opt. sup. margin]{title}
+# \createhiddensection{title}
+# \newchapter{title}#n
 \sectionanum{title}#n
 \subsectionanum{title}#n
 \subsubsectionanum{title}#n
@@ -202,12 +230,13 @@
 \subsubsubsectionanum{title}#n
 
 # Otros
-\addpathimage{folder}
 \begin{enumeratebf}[opt. params]#*
 \begin{itemizebf}[opt. params]#*
 \begin{landscape}
 \changepagesize[opt. rotation]{page width cm}{page height cm}#n
+\changepagesize{page width cm}{page height cm}#n
 \changepagesizeformat[opt. rotation]{page format}#n
+\changepagesizeformat{page format}#n
 \disablecaptionmargin#n
 \disabletablerowcolor#n
 \enabletablerowcolor
@@ -222,7 +251,6 @@
 \insertemptypage#n
 \insertphone{phone number}#n
 \itemresize{linewidth size}{item}
-\newchapter{title}#n
 \newcolumn
 \newp#n
 \newpagemulticol
@@ -236,4 +264,6 @@
 \setcaptionmargincm{margin}#n
 \setindexcaption{caption title}#n
 \setpagemargincm{left}{top}{right}{bottom}#n
-\switchtablerowcolors
+\settablerowcolors{color}#n
+\settablerowcolorslast#n
+\switchtablerowcolors#n
