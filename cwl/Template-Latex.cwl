@@ -83,6 +83,7 @@
 \J
 \K
 \L
+\longtilde{expression}
 \lpow{expression}{power}
 \M
 \mathbit{expression}
