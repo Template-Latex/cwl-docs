@@ -39,6 +39,7 @@
 \aasin{expression}
 \aatan
 \aatan{expression}
+\asteq
 \Autexp
 \B
 \begin{defn}
@@ -50,12 +51,22 @@
 \biggp{expression}
 \bigp{expression}
 \C
+\cdoteq
 \ceilexp{expression}
 \D
 \Diffexp
+\diveq
 \divexp
 \E
 \end{defn}
+\eqast
+\eqcdot
+\eqdiv
+\eqeq
+\eqminus
+\eqnot
+\eqplus
+\eqtimes
 \F
 \floorexp{expression}
 \fracdderivat{function}{expression}
@@ -75,8 +86,11 @@
 \lpow{expression}{power}
 \M
 \mathbit{expression}
+\minuseq
+\minusminus
 \Mod{expression}
 \N
+\noteq
 \O
 \oldC
 \oldG
@@ -87,6 +101,8 @@
 \oldU
 \overbar{expression}
 \P
+\pluseq
+\plusplus
 \pow{expression}{power}
 \Q
 \R
@@ -94,6 +110,7 @@
 \Rezexp
 \S
 \T
+\timeseq
 \topequal{expression}{equal to}
 \topequaltext{expression}{equal to text}
 \topsequal{expression}{equal to}
