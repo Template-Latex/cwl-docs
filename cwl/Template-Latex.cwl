@@ -8,16 +8,16 @@
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
 
 # Funciones del núcleo
-\addpathimage{folder}
+\addpathimage{folder}#n
 \changemargin{left}{right}#n
-\checkextravarexist{variable}{message}
-\checkinsidemulticol
+\checkextravarexist{variable}{message}#n
+\checkinsidemulticol#n
 \checkonlyonenvimage#n
 \checkoutsideenvimage#n
 \checkvardefined{variable}#n
-\corecheckfontsize
+\corecheckfontsize#n
 \coreimporttikz#n
-\coreintializetitlenumbering
+\coreintializetitlenumbering#n
 \coreintializetitlenumbering#n
 \emptyvarerr{function}{variable}{message}#n
 \throwbadconfig{message}{config}{expected params}#n
@@ -128,13 +128,13 @@
 \Z
 
 # Código fuente
-\begin{sourcecode}[opt. label]{language}{caption}#*
-\begin{sourcecode}{language}{caption}#*
-\begin{sourcecodep}[opt. label]{language}{params}{caption}#*
-\begin{sourcecodep}{language}{params}{caption}#*
-\end{sourcecode}
-\end{sourcecodep}
-\importsourcecode[opt. label]{language}{file}{caption}
+\begin{sourcecode}[opt. label]{language}{caption}
+\begin{sourcecode}{language}{caption}
+\begin{sourcecodep}[opt. label]{language}{params}{caption}
+\begin{sourcecodep}{language}{params}{caption}
+\end{sourcecode}#n
+\end{sourcecodep}#n
+\importsourcecode[opt. label]{language}{file}{caption}#n
 \importsourcecodep[opt. label]{language}{params}{file}{caption}#n
 
 # Ecuaciones
@@ -179,12 +179,12 @@
 \addimageboxed{imagefile}{keyvals}{border width}{caption}#n
 \addimageboxedanum{imagefile}{keyvals}{border width}#n
 \addimagenum{imagefile}{keyvals}#n
-\begin{images}[opt. label]{caption}#n
-\begin{images}{caption}#n
-\begin{imagesmc}[opt. label]{caption}#n
-\begin{imagesmc}{caption}#n
-\end{images}
-\end{imagesmc}
+\begin{images}[opt. label]{caption}
+\begin{images}{caption}
+\begin{imagesmc}[opt. label]{caption}
+\begin{imagesmc}{caption}
+\end{images}#n
+\end{imagesmc}#n
 \imageshspace{margin}#n
 \imagesnewline#n
 \imagesvspace{margin}#n
@@ -248,8 +248,8 @@
 \subsubsubsectionanum{title}#n
 
 # Otros
-\begin{enumeratebf}[opt. params]#*
-\begin{itemizebf}[opt. params]#*
+\begin{enumeratebf}[opt. params]
+\begin{itemizebf}[opt. params]
 \begin{landscape}
 \changepagesize[opt. rotation]{page width cm}{page height cm}#n
 \changepagesize{page width cm}{page height cm}#n
@@ -257,11 +257,11 @@
 \changepagesizeformat{page format}#n
 \disablecaptionmargin#n
 \disabletablerowcolor#n
-\enabletablerowcolor
-\enabletablerowcolor[opt. index]
-\end{enumeratebf}
-\end{itemizebf}
-\end{landscape}
+\enabletablerowcolor#n
+\enabletablerowcolor[opt. index]#n
+\end{enumeratebf}#n
+\end{itemizebf}#n
+\end{landscape}#n
 \includefullhfpdf[opt. params]{pdffile}#n
 \includehfpdf[opt. params]{pdffile}#n
 \insertblankpage#n
@@ -269,13 +269,13 @@
 \insertemptypage#n
 \insertphone{phone number}#n
 \itemresize{linewidth size}{item}
-\newcolumn
+\newcolumn#n
 \newp#n
-\newpagemulticol
+\newpagemulticol#n
 \newpar{text}#n
 \newparnl{text}#n
 \quotes{text}#n
-\resetcaptionmargin
+\resetcaptionmargin#n
 \resetindexcaption}#n
 \restartequation#n
 \scite{citekey}#c
