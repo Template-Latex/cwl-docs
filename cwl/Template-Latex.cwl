@@ -1,4 +1,4 @@
-# CWL-DOCS Template-Informe v2.8.8
+# CWL-DOCS Template-Informe v2.8.9
 # Autocompletado para Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
@@ -17,6 +17,7 @@
 \checkvardefined{variable}#n
 \corecheckfontsize#n
 \coreimporttikz#n
+\coreinsertkeyimage{image keyvals}{imagefile}#n
 \coreintializetitlenumbering#n
 \coreintializetitlenumbering#n
 \emptyvarerr{function}{variable}{message}#n
