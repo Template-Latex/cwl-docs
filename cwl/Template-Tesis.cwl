@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.8.9
+# CWL-DOCS Template-Informe v2.9.0
 # Autocompletado para Template-Tesis
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (11/11/2020)
+# Fecha: (21/11/2020)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
