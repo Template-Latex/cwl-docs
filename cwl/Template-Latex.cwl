@@ -137,6 +137,7 @@
 \end{sourcecodep}#n
 \importsourcecode[opt. label]{language}{file}{caption}#n
 \importsourcecodep[opt. label]{language}{params}{file}{caption}#n
+\inlinesourcecode{language}#n
 
 # Ecuaciones
 \equationresize{linewidth size}{equation}
@@ -176,7 +177,9 @@
 # \insertindexequation{equation}{index title}#n
 
 # Entorno images
+\addimage[opt. label]{imagefile}{keyvals}{caption}#n
 \addimage{imagefile}{keyvals}{caption}#n
+\addimageboxed[opt. label]{imagefile}{keyvals}{border width}{caption}#n
 \addimageboxed{imagefile}{keyvals}{border width}{caption}#n
 \addimageboxedanum{imagefile}{keyvals}{border width}#n
 \addimagenum{imagefile}{keyvals}#n
