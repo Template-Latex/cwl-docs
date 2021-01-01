@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.9.0
+# CWL-DOCS Template-Informe v2.9.1
 # Autocompletado para Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (21/11/2020)
+# Fecha: (01/01/2021)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -133,6 +133,8 @@
 \begin{sourcecode}{language}{caption}
 \begin{sourcecodep}[opt. label]{language}{params}{caption}
 \begin{sourcecodep}{language}{params}{caption}
+\codeeqref
+\coderef
 \end{sourcecode}#n
 \end{sourcecodep}#n
 \importsourcecode[opt. label]{language}{file}{caption}#n
@@ -251,21 +253,29 @@
 \subsubsubsection{title}#n
 \subsubsubsectionanum{title}#n
 
-# Otros
-\begin{enumeratebf}[opt. params]
-\begin{itemizebf}[opt. params]
+# Tablas
+\disabletablerowcolor#n
+\enabletablerowcolor#n
+\enabletablerowcolor[opt. index]#n
+\settablerowcolors{color}#n
+\settablerowcolorslast#n
+\switchtablerowcolors#n
+
+# Gometría de la página
 \begin{landscape}
 \changepagesize[opt. rotation]{page width cm}{page height cm}#n
 \changepagesize{page width cm}{page height cm}#n
 \changepagesizeformat[opt. rotation]{page format}#n
 \changepagesizeformat{page format}#n
+\end{landscape}#n
+\setpagemargincm{left}{top}{right}{bottom}#n
+
+# Otros
+\begin{enumeratebf}[opt. params]
+\begin{itemizebf}[opt. params]
 \disablecaptionmargin#n
-\disabletablerowcolor#n
-\enabletablerowcolor#n
-\enabletablerowcolor[opt. index]#n
 \end{enumeratebf}#n
 \end{itemizebf}#n
-\end{landscape}#n
 \includefullhfpdf[opt. params]{pdffile}#n
 \includehfpdf[opt. params]{pdffile}#n
 \insertblankpage#n
@@ -285,7 +295,3 @@
 \scite{citekey}#c
 \setcaptionmargincm{margin}#n
 \setindexcaption{caption title}#n
-\setpagemargincm{left}{top}{right}{bottom}#n
-\settablerowcolors{color}#n
-\settablerowcolorslast#n
-\switchtablerowcolors#n
