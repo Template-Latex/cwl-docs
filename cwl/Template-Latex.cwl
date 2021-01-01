@@ -133,8 +133,8 @@
 \begin{sourcecode}{language}{caption}
 \begin{sourcecodep}[opt. label]{language}{params}{caption}
 \begin{sourcecodep}{language}{params}{caption}
-\codeeqref
-\coderef
+\codeeqref{label}
+\coderef{label}
 \end{sourcecode}#n
 \end{sourcecodep}#n
 \importsourcecode[opt. label]{language}{file}{caption}#n
