@@ -16,6 +16,8 @@
 \end{anexo}#n
 \begin{resumen}
 \end{resumen}#n
+\begin{resumenenv}{tabla resumen}{titulo tesis}
+\end{resumenenv}#n
 
 # Ecuaciones
 \insertindexequation[opt. label]{equation}{label}#n
