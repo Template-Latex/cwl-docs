@@ -16,7 +16,7 @@
 \end{anexo}#n
 \begin{resumen}
 \end{resumen}#n
-\begin{resumenenv}{tabla resumen}{titulo tesis}
+\begin{resumenenv}{tabla resumen}{titulo tesis}{titulo seccion}{marcador pdf}
 \end{resumenenv}#n
 
 # Ecuaciones
