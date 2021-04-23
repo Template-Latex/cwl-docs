@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.9.1
+# CWL-DOCS Template-Informe v2.9.2
 # Autocompletado para Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (01/01/2021)
+# Fecha: (22/04/2021)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -274,8 +274,10 @@
 \begin{enumeratebf}[opt. params]
 \begin{itemizebf}[opt. params]
 \disablecaptionmargin#n
+\doublequotes{text}#n
 \end{enumeratebf}#n
 \end{itemizebf}#n
+\forceindent
 \includefullhfpdf[opt. params]{pdffile}#n
 \includehfpdf[opt. params]{pdffile}#n
 \insertblankpage#n
