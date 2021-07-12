@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.9.3
+# CWL-DOCS Template-Informe v2.9.4
 # Autocompletado para Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (17/05/2021)
+# Fecha: (12/07/2021)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -15,16 +15,20 @@
 \checkonlyonenvimage#n
 \checkoutsideenvimage#n
 \checkvardefined{variable}#n
-\corecheckfontsize#n
+\corecheckbooleanvar{variable}#
+\corecheckfontsize{font size}#n
 \coreimporttikz#n
+\coreinsertequationcaption{text}#n
 \coreinsertkeyimage{image keyvals}{imagefile}#n
 \coreintializetitlenumbering#n
 \coreintializetitlenumbering#n
+\coretemplatemessage{message}#n
 \emptyvarerr{function}{variable}{message}#n
 \throwbadconfig{message}{config}{expected params}#n
 \throwbadconfigondoc{message}{config}{expected params}#n
 \throwerror{function}{message}#n
 \throwwarning{message}#n
+\verticallycentertext{text}#n
 
 # Expresiones matemáticas
 \A
@@ -257,8 +261,10 @@
 \disabletablerowcolor#n
 \enabletablerowcolor#n
 \enabletablerowcolor[opt. index]#n
+\resettablecellpadding#n
 \settablerowcolors{color}#n
 \settablerowcolorslast#n
+\settablecellpadding{horizontal}{vertical}#n
 \switchtablerowcolors#n
 
 # Gometría de la página
@@ -292,7 +298,7 @@
 \newparnl{text}#n
 \quotes{text}#n
 \resetcaptionmargin#n
-\resetindexcaption}#n
+\resetindexcaption#n
 \restartequation#n
 \scite{citekey}#c
 \setcaptionmargincm{margin}#n
