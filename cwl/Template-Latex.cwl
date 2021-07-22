@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.9.4
+# CWL-DOCS Template-Informe v2.9.5
 # Autocompletado para Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (12/07/2021)
+# Fecha: (21/07/2021)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -10,24 +10,22 @@
 # Funciones del núcleo
 \addpathimage{folder}#n
 \changemargin{left}{right}#n
-\checkextravarexist{variable}{message}#n
-\checkinsidemulticol#n
-\checkonlyonenvimage#n
-\checkoutsideenvimage#n
-\checkvardefined{variable}#n
-\corecheckbooleanvar{variable}#
-\corecheckfontsize{font size}#n
-\coreimporttikz#n
-\coreinsertequationcaption{text}#n
-\coreinsertkeyimage{image keyvals}{imagefile}#n
-\coreintializetitlenumbering#n
-\coreintializetitlenumbering#n
-\coretemplatemessage{message}#n
-\emptyvarerr{function}{variable}{message}#n
-\throwbadconfig{message}{config}{expected params}#n
-\throwbadconfigondoc{message}{config}{expected params}#n
-\throwerror{function}{message}#n
-\throwwarning{message}#n
+# \checkextravarexist{variable}{message}#n
+# \checkinsidemulticol#n
+# \checkonlyonenvimage#n
+# \checkoutsideenvimage#n
+# \checkvardefined{variable}#n
+# \corecheckbooleanvar{variable}#
+# \corecheckfontsize{font size}#n
+# \coreinsertequationcaption{text}#n
+# \coreinsertkeyimage{image keyvals}{imagefile}#n
+# \coreintializetitlenumbering#n
+# \coretemplatemessage{message}#n
+# \emptyvarerr{function}{variable}{message}#n
+# \throwbadconfig{message}{config}{expected params}#n
+# \throwbadconfigondoc{message}{config}{expected params}#n
+# \throwerror{function}{message}#n
+# \throwwarning{message}#n
 \verticallycentertext{text}#n
 
 # Expresiones matemáticas
@@ -303,3 +301,19 @@
 \scite{citekey}#c
 \setcaptionmargincm{margin}#n
 \setindexcaption{caption title}#n
+
+# Columnas
+# \corecheckcolumnpvalue{p. pos}#n
+# \corecheckcolumnvvalue{v. pos}#n
+\createhalfcolumn[opt. col height]{content left}{content right}#n
+\createhalfcolumn{content left}{content right}#n
+\createthirdcolumn[opt. col height]{content left}{content mid}{content right}#n
+\createthirdcolumn{content left}{content mid}{content right}#n
+\createthreecolumn[opt. col height]{dim left}{dim mid}{dim right}{dist col left/mid}{dist col mid/right}{content left}{content mid}{content right}#n
+\createthreecolumn{dim left}{dim mid}{dim right}{dist col left/mid}{dist col mid/right}{content left}{content mid}{content right}#n
+\createthreecolumncfg{left v. pos}{left h. pos}{mid v. pos}{mid h. pos}{right v. pos}{right h. pos}#n
+\createtwocolumn[opt. col height]{dim left}{dim der}{dist cols}{content left}{content right}#n
+\createtwocolumn{dim left}{dim right}{dist cols}{content left}{content right}#n
+\createtwocolumncfg{left v. pos}{left h. pos}{right v. pos}{right h. pos}#n
+\resetthreecolumncfg#n
+\resettwocolumncfg#n
