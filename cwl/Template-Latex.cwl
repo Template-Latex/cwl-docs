@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.9.5
+# CWL-DOCS Template-Informe v2.9.6
 # Autocompletado para Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (21/07/2021)
+# Fecha: (21/08/2021)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -141,7 +141,8 @@
 \end{sourcecodep}#n
 \importsourcecode[opt. label]{language}{file}{caption}#n
 \importsourcecodep[opt. label]{language}{params}{file}{caption}#n
-\inlinesourcecode{language}#n
+\inlinesourcecode{language}{code}#n
+\inlinesourcecodeboxed[opt. color]{language}{code}#n
 
 # Ecuaciones
 \equationresize{linewidth size}{equation}
