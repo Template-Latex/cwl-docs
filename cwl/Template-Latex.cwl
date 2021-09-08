@@ -1,4 +1,4 @@
-# CWL-DOCS Template-Informe v2.9.7
+# CWL-DOCS Template-Latex v3.0.0
 # Autocompletado para Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
@@ -13,8 +13,10 @@
 # \checkextravarexist{variable}{message}#n
 # \checkinsidemulticol#n
 # \checkonlyonenvimage#n
+# \checkoutsideappendix#n
 # \checkoutsideenvimage#n
 # \checkvardefined{variable}#n
+# \coreafterequationfn#n
 # \corecheckbooleanvar{variable}#
 # \corecheckfontsize{font size}#n
 # \coreinsertequationcaption{text}#n
@@ -293,8 +295,6 @@
 \newcolumn#n
 \newp#n
 \newpagemulticol#n
-\newpar{text}#n
-\newparnl{text}#n
 \quotes{text}#n
 \quotesbf{text}#n
 \quotesit{text}#n

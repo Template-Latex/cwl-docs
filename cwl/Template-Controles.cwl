@@ -1,4 +1,4 @@
-# CWL-DOCS Template-Informe v2.9.7
+# CWL-DOCS Template-Latex v3.0.0
 # Autocompletado para Template-Controles
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
@@ -14,7 +14,7 @@
 \newquestionthemed{title}{topic}#n
 
 # Ambientes
-\begin{anexo}
-\end{anexo}#n
+\begin{appendixd}
+\end{appendixd}#n
 \begin{references}
 \end{references}#n

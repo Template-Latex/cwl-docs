@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Informe v2.9.7
+# CWL-DOCS Template-Latex v3.0.0
 # Autocompletado para Template-Auxiliares
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (25/08/2021)
+# Fecha: (28/09/2021)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -12,7 +12,7 @@
 \newquestion{title}#n
 
 # Ambientes
-\begin{anexo}
-\end{anexo}#n
+\begin{appendixd}
+\end{appendixd}#n
 \begin{references}
 \end{references}#n

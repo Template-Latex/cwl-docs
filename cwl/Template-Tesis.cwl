@@ -1,4 +1,4 @@
-# CWL-DOCS Template-Informe v2.9.7
+# CWL-DOCS Template-Latex v3.0.0
 # Autocompletado para Template-Tesis
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
@@ -8,16 +8,16 @@
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
 
 # Ambientes
-\begin{dedicatoria}
-\end{dedicatoria}#n
-\begin{agradecimientos}
-\end{agradecimientos}#n
-\begin{anexo}
-\end{anexo}#n
-\begin{resumen}
-\end{resumen}#n
-\begin{resumenenv}{tabla resumen}{titulo tesis}{titulo seccion}{marcador pdf}
-\end{resumenenv}#n
+\begin{dedicatory}
+\end{dedicatory}#n
+\begin{acknowledgments}
+\end{acknowledgments}#n
+\begin{appendixd}
+\end{appendixd}#n
+\begin{abstractd}
+\end{abstractd}#n
+\begin{abstractenv}{tabla resumen}{titulo tesis}{titulo seccion}{marcador pdf}
+\end{abstractenv}#n
 
 # Ecuaciones
 \insertindexequation[opt. label]{equation}{label}#n

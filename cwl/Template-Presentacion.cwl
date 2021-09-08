@@ -1,4 +1,4 @@
-# CWL-DOCS Template-Informe v2.9.7
+# CWL-DOCS Template-Latex v3.0.0
 # Autocompletado para Template-Presentacion
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
