@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Latex v3.0.0
+# CWL-DOCS Template-Latex v3.0.1
 # Autocompletado para Template-Latex
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (25/08/2021)
+# Fecha: (13/10/2021)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
@@ -186,10 +186,23 @@
 # Entorno images
 \addimage[opt. label]{imagefile}{keyvals}{caption}#n
 \addimage{imagefile}{keyvals}{caption}#n
+\addimageanimated[opt. label]{imagefile}{keyvals}{fps}{total}{label}#n
+\addimageanimated{imagefile}{keyvals}{fps}{total}{label}#n
+\addimageanimatedanum{imagefile}{keyvals}{fps}{total}#n
+\addimageanimatedanumboxed{imagefile}{keyvals}{fps}{total}{label}#n
+\addimageanimatedboxed[opt. label]{imagefile}{keyvals}{fps}{total}{border width}{label}#n
+\addimageanimatedboxed{imagefile}{keyvals}{fps}{total}{border width}{label}#n
+\addimageanum{imagefile}{keyvals}#n
+\addimageanumboxed{imagefile}{keyvals}{border width}#n
+\addimageanumlink{imagefile}{keyvals}{href link}#n
+\addimageanumlinkboxed{imagefile}{keyvals}{border width}{href link}#n
+\addimageanumlinkboxed{imagefile}{keyvals}{href link}{border width}#n
 \addimageboxed[opt. label]{imagefile}{keyvals}{border width}{caption}#n
 \addimageboxed{imagefile}{keyvals}{border width}{caption}#n
-\addimageboxedanum{imagefile}{keyvals}{border width}#n
-\addimagenum{imagefile}{keyvals}#n
+\addimagelink[opt. label]{imagefile}{keyvals}{caption}{href link}#n
+\addimagelink{imagefile}{keyvals}{caption}{href link}#n
+\addimagelinkboxed[opt. label]{imagefile}{keyvals}{border width}{href link}{caption}#n
+\addimagelinkboxed{imagefile}{keyvals}{border width}{href link}{caption}#n
 \begin{images}[opt. label]{caption}
 \begin{images}{caption}
 \begin{imagesmc}[opt. label]{caption}
@@ -199,12 +212,20 @@
 \imageshspace{margin}#n
 \imagesnewline#n
 \imagesvspace{margin}#n
+\insertanimatedimage[opt. label]{imagefile}{keyvals}{fps}{total}{label}#n
+\insertanimatedimage{imagefile}{keyvals}{fps}{total}{label}#n
+\insertanimatedimageboxed[opt. label]{imagefile}{keyvals}{fps}{total}{border width}{label}#n
+\insertanimatedimageboxed{imagefile}{keyvals}{fps}{total}{border width}{label}#n
 \insertimage[opt. label]{imagefile}{keyvals}{caption}#n
 \insertimage{imagefile}{keyvals}{caption}#n
 \insertimageboxed[opt. label]{imagefile}{keyvals}{border width}{caption}#n
 \insertimageboxed{imagefile}{keyvals}{border width}{caption}#n
 \insertimageboxedmc[opt. label]{imagefile}{keyvals}{border width}{position}{caption}#n
 \insertimageboxedmc{imagefile}{keyvals}{border width}{position}{caption}#n
+\insertimagelink[opt. label]{imagefile}{keyvals}{href link}{caption}#n
+\insertimagelink{imagefile}{keyvals}{href link}{caption}#n
+\insertimagelinkboxed[opt. label]{imagefile}{keyvals}{border width}{href link}{caption}#n
+\insertimagelinkboxed{imagefile}{keyvals}{border width}{href link}{caption}#n
 \insertimagemc[opt. label]{imagefile}{keyvals}{position}{caption}#n
 \insertimagemc{imagefile}{keyvals}{position}{caption}#n
 \inserttableimage{imagefile}{keyvals}#n

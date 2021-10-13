@@ -1,8 +1,8 @@
-# CWL-DOCS Template-Latex v3.0.0
+# CWL-DOCS Template-Latex v3.0.1
 # Autocompletado para Template-Tesis
 #
 # Autor: Pablo Pizarro R. @ ppizarror.com
-# Fecha: (25/08/2021)
+# Fecha: (13/10/2021)
 #
 # Licencia: MIT    [https://opensource.org/licenses/MIT/]
 # Github: cwl-docs [https://github.com/Template-Latex/cwl-docs]
